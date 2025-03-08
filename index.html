@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Download</title>
+    <style>
+        body{
+            background-color: #008CFF;
+        }
+        h1,h2{
+            text-align: center;
+        }
+        .download-park {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .download {
+            margin: 0 auto;
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0088ff;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        h1{
+            font-size: 48px;
+        }
+        h2{
+            font-size: 24px;
+            margin-top: -20px;
+            color: rgb(68, 68, 68);
+        }
+        p{
+            color: rgb(107, 107, 107);
+        }
+        .Park{
+            width: 80%;
+            margin: 0 auto;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background-color: #ffffff;
+        }
+        .download:hover {
+            transform: scale(1.1);
+        }
+        .features {
+            margin-top: 200px;
+            margin-bottom: 40px;
+        }
+        .feature {
+            display: inline-block;
+            width: 30%;
+            vertical-align: top;
+            text-align: center;
+        }
+        .feature-icon {
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s;
+        }
+        .feature:hover .feature-icon {
+            background-color: #e0e0e0;
+        }
+        .feature-title {
+            font-size: 20px;
+            color: #333333;
+            margin-top: 10px;
+        }
+        .feature-desc {
+            font-size: 16px;
+            color: #666666;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="Park">
+        <br>
+        <h1>VS Code</h1>
+        <h2>Your code editor. Redefined with AI.</h2>
+        <div class="download-park">
+            <a class="download" href="https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user">立即下载</a>
+            <p>适用于 Windows</p>
+        </div>
+        <div class="features">
+            <div class="feature">
+                <img src="clean.png" class="feature-icon">
+                <div class="feature-title">清理加速</div>
+                <div class="feature-desc">一键清理垃圾文件，优化系统性能，更有高级模式让电脑运行更快更流畅</div>
+            </div>
+            <div class="feature">
+                <img src="secure.png" class="feature-icon">
+                <div class="feature-title">系统安全</div>
+                <div class="feature-desc">带有超级杀毒引擎，立即防止恶意软件入侵，保护系统和数据安全</div>
+            </div>
+            <div class="feature">
+                <img src="tool.png" class="feature-icon">
+                <div class="feature-title">功能大全</div>
+                <div class="feature-desc">提供多种实用工具，如进程管理，资源管理器，控制面板等，让你的电脑更强大更智能</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
